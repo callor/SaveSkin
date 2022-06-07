@@ -1,0 +1,206 @@
+@charset "UTF-8";
+header {
+  z-index: 1;
+}
+#search-background {
+  background-image: url("../image/cos1920_1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 55vh;
+}
+#search {
+  position: relative;
+  top: 45%;
+
+  width: 1020px;
+  margin: 0 auto;
+}
+
+#search ul {
+  display: flex;
+}
+#search ul li input {
+  width: 680px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#searchalertStart {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(118, 201, 65);
+  margin-right: 20px;
+  border-radius: 0 5px 5px 0;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+}
+#search ul li:nth-child(3) {
+  width: 250px;
+  height: 40px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 5px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+#recall-box a {
+  color: #fff;
+}
+
+#icon {
+  color: white;
+}
+
+section {
+  width: 1280px;
+  margin: 0 auto;
+  height: 300px;
+}
+.table-title {
+  padding-top: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.border-bottom {
+  width: 400px;
+  margin-top: 5px;
+  border: 1px solid rgb(118, 201, 65);
+}
+
+table {
+  margin-top: 5px;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  width: 400px;
+}
+
+article h1 {
+  color: rgb(34, 34, 34);
+}
+.table-title a {
+  padding-top: 5px;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+}
+table tr:hover {
+  background-color: rgba(118, 201, 65, 0.1);
+}
+article i {
+  padding-left: 5px;
+}
+
+table tr td {
+  border-bottom: 1px solid rgb(150, 150, 150);
+  padding: 8px 0 4px 0;
+}
+table tr td:first-child {
+  width: 321px;
+}
+table tr td:last-child {
+  font-size: 15px;
+}
+table tr td a {
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+#rank tr td:first-child {
+  width: 35px;
+  text-align: center;
+}
+
+#bell-watch {
+  width: 310px;
+  height: 300px;
+  position: fixed;
+  top: 10px;
+  left: 84%;
+  overflow: hidden;
+  display: none;
+  background-color: rgb(34, 34, 34);
+  border-radius: 5px;
+}
+#ball-see {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+}
+
+.bell-box {
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(34, 34, 34);
+}
+#bell-see > a {
+  margin-left: 6px;
+}
+.fa-x {
+  color: #fff;
+}
+
+.bell-box a {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(34, 34, 34);
+  margin-left: 10px;
+}
+
+#recall-box-wrap {
+  width: 250px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  transform: translateY();
+}
+
+#recall-box {
+  width: 250px;
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#recall-box-wrap #recall-box {
+  animation: run 10s steps(4, start) 2s infinite;
+  animation-timing-function: ease-in-out;
+}
+.slide:hover {
+  animation-play-state: paused;
+}
+
+@keyframes run {
+  from {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(-80px);
+  }
+  75% {
+    transform: translateY(-120px);
+  }
+
+  to {
+    transform: translateY(-160px);
+  }
+}

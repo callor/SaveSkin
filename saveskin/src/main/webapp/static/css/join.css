@@ -1,0 +1,117 @@
+@charset "UTF-8";
+ div.mainbox {
+        width: 1280px;
+        margin: 0 auto;
+      }
+      section {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        margin-top: 100px;
+      }
+      section h1 {
+        text-align: center;
+        padding: 10px;
+      }
+      .line {
+        width: 36vw;
+        border-bottom: 1px solid gray;
+        margin: 10px auto 30px;
+        padding: 0;
+      }
+      article {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      fieldset {
+        border: 1px solid gray;
+        padding: 5px;
+        border-radius: 10px;
+        width: 36vw;
+        margin: 0 auto;
+      }
+
+      label,
+      input {
+        display: inline-block;
+        padding: 5px;
+        margin: 5px 3px;
+      }
+
+      label {
+        width: 8vw;
+        text-align: right;
+      }
+      input {
+        width: 10vw;
+        border-radius: 5px;
+        outline: none;
+        border: solid 1px rgba(0, 0, 0, 0.3);
+      }
+      fieldset #check {
+        width: 5rem;
+        padding: 3px 0;
+        font-size: 13px;
+        color: white;
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      select {
+        font-size: 13px;
+      }
+      .btnbox {
+        text-align: center;
+        margin: 10px 0;
+        outline: 0;
+      }
+      .btn {
+        display: inline-block;
+        width: 90%;
+        padding: 12px 16px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color: rgba(118, 201, 65);
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .gotologin {
+        margin-top: 30px;
+        text-align: center;
+      }
+      .gotologin a {
+        color: inherit;
+        text-decoration: underline;
+      }
+      
+      .userid-text{
+      	width:160px;
+      	display:inline-block;
+      	font-size:10px;
+      	text-decoration: underline;
+      }
+      
+      .username-text{
+      	width:160px;
+      	display:inline-block;
+      	font-size:10px;
+      	text-decoration: underline;
+      }
+      
+      .pw-text{
+      	width:160px;
+      	display:inline-block;
+      	font-size:10px;
+      	text-decoration: underline;
+      }
+      
+      .repw-text{
+      	width:160px;
+      	display:inline-block;
+      	font-size:10px;
+      	text-decoration: underline;
+      }

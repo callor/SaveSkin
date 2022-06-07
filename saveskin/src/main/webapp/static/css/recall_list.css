@@ -1,0 +1,84 @@
+@charset "UTF-8";
+section {
+  flex: 1;
+  width: 1280px;
+  margin: 50px auto 0;
+}
+div.mainbox {
+  width: 1280px;
+  margin: 0 auto;
+}
+section h1 {
+  margin-bottom: 40px;
+}
+.search {
+  display: flex;
+}
+.search input {
+  width: 1210px;
+  height: 50px;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  font-size: inherit;
+  font-weight: 700;
+  text-align: center;
+}
+.search button {
+  cursor: pointer;
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background-color: rgba(118, 201, 65);
+  border-style: none;
+  border-radius: 0 10px 10px 0;
+}
+
+.post-list p {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.post-list a {
+  color: inherit;
+}
+.post-list table {
+  border-collapse: collapse;
+  width: 1280px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.post-list th {
+  background-color: rgba(118, 201, 65, 0.1);
+  padding: 12px;
+}
+.post-list td {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.post-list tbody tr:hover {
+  background-color: rgba(118, 201, 65, 0.1);
+}
+.post-list td:not(:nth-of-type(2)) {
+  text-align: center;
+}
+#paging {
+  line-height: 36px;
+  text-align: center;
+  margin: 50px 0;
+  cursor: pointer;
+}
+#paging a {
+  box-sizing: border-box;
+  min-width: 36px;
+  height: 36px;
+  display: inline-block;
+}
+#paging a.on {
+  border: 1px solid rgba(118, 201, 65);
+  color: rgba(118, 201, 65);
+}
+#paging a.arrow {
+  border: 1px solid #ccc;
+}
+#paging a:hover {
+  border: 1px solid rgba(118, 201, 65);
+}

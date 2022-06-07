@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+      * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+     
+      #topsection {
+        justify-content: center;
+        justify-items: center;
+        width: 80%;
+        height: 1%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        margin-top: 50px;
+        line-height: 35px;
+        padding-left: 0px;
+      }
+      #bh2 li {
+        border-bottom: 1px solid rgb(88, 85, 79);
+      }
+      table {
+        margin: 60px auto;
+        text-align: center;
+        width: 80%;
+        border-collapse: collapse;
+        font-size: 15px;
+      }
+      #boardtable tr {
+        height: 32px;
+        border-bottom: 1px solid #aaa;
+      }
+      #boardtable tr:nth-child(odd) {
+        background-color: rgb(218, 213, 213);
+      }
+      #boardtable tr:nth-child(1) {
+        background-color: rgba(118, 201, 65, 0.1);
+        border-bottom: 1.2px solid #aaa;
+      }
+      #boardtable tr:not(:first-of-type):hover {
+        background-color: rgba(118, 201, 65, 0.1);
+      }
+     
+    
+      #page {
+        position: relative;
+        display: flex;
+        margin: 15px auto;
+        
+      }
+      #page ul {
+        display: inline-block;
+        padding: 1px;
+        margin: 5px auto;
+        
+      }
+      #page li {
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+        margin-left: 0 10px;
+        border: 1px solid #aaa;
+      }
+      #pagebutton {
+        display: inline-block;
+        position: absolute;
+        margin-right: 50px;
+        left : 1185px
+
+      }
+      #pagebutton button {
+        position: absolute;
+        border:1px solid rgb(88, 85, 79);
+        background-color: white;
+        width: 80px;
+        height: 40px;
+        border-radius: 15px;
+        color: rgb(88, 85, 79);
+        font-weight: 600;
+      }
+      #pagebutton button:hover {
+        cursor: pointer;
+        background-color: rgb(230, 227, 223);
+        box-shadow: -1px 3px rgb(126, 111, 126) ;
+      }
+      #freeboard {
+        flex: 1;
+        margin: 0;
+        margin-top: 50px;
+        position: relative;
+      }
+      #freeboard a {
+        color: black;
+      }
+      #freeboard a:hover {
+        font-weight: 700;
+      }

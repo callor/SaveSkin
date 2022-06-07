@@ -1,0 +1,35 @@
+@charset "UTF-8";
+section {
+  flex: 1;
+  width: 100%;
+  margin-top: 50px;
+}
+div.mainbox {
+  width: 1280px;
+  margin: 0 auto;
+}
+section h1 {
+  margin-bottom: 20px;
+}
+.details h3 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.details table {
+  border-collapse: collapse;
+  width: 1280px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  border-top: 3px solid black;
+  font-size: 14px;
+}
+.details th {
+  background-color: rgba(118, 201, 65, 0.1);
+  padding: 12px;
+  border-bottom: 1px solid gray;
+  width: 30%;
+}
+.details td {
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
